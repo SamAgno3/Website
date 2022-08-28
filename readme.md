@@ -1,0 +1,1 @@
+Feel free to use this template to build your own website. The code is well commented to let you know where you should insert content. The 3d render is probably the hardest part ot it, you can insert a still image, or use blender, or figure out how to do it over 3js. Let me know if you have any suggestions, recommendations, or critcims on this.
