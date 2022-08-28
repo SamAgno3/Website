@@ -1,0 +1,59 @@
+html{
+  scroll-snap-type: y mandatory;
+}
+section{
+  scroll-snap-align: start;
+}
+
+ul {
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: block;
+  flex: 0 1 auto; /* Default */
+  list-style-type: none;
+}
+
+.socials {
+  max-width: 5% ;
+  height: 5%;
+  padding: 1%;
+}
+
+img{
+  padding: 1%;
+  max-width: 13%;
+  height: 19%;
+}
+
+body{
+  font-family: "Poppins";
+}
+
+p{
+font-family: "Poppins"
+}
+
+h3{
+font-family: "Poppins";
+}
+
+body {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
